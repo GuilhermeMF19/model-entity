@@ -1,0 +1,14 @@
+{
+    "name": "guilh/entity",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "guilherme_riba@hotmail.com"
+        }
+    ]
+}

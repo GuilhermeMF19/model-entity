@@ -1,0 +1,30 @@
+# Arquivos de configuração locais
+.env
+
+# Arquivos gerados automaticamente
+/vendor/
+composer.lock
+.phpunit.result.cache
+/php-cs-fixer.cache
+
+# Diretório de uploads ou arquivos de mídia gerados pelos usuários
+/public/uploads/
+
+# Cache e arquivos temporários
+/var/cache/
+/var/tmp/
+/var/log/
+
+# Dependências de desenvolvimento do Composer
+/dev/
+
+# Arquivos de configuração específicos do ambiente
+/config/*.php
+
+# Arquivos de backup
+*.bak
+*.swp
+*~
+
+# Arquivos de log
+error_log
