@@ -2,6 +2,9 @@
 
 Este é um projeto PHP que utiliza o padrão de arquitetura Model-Entity para interagir com um banco de dados relacional. Ele fornece uma estrutura básica para lidar com operações CRUD (Create, Read, Update, Delete) em entidades do banco de dados.
 
+## Aviso
+Este projeto foi baseado em um curso do Clube Full-stack.
+
 ## Funcionalidades
 
 - **Métodos CRUD Básicos:** A classe `Model` fornece métodos para realizar operações básicas de criação, leitura e contagem de registros.
