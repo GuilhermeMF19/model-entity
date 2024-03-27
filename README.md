@@ -30,20 +30,21 @@ Este é um projeto PHP que utiliza o padrão de arquitetura Model-Entity para in
 3. Execute `composer install` para instalar as dependências do projeto.
 
 
-Uso
-Defina suas classes de modelo (Model) e entidades (Entity) no diretório app/database/model e app/database/entity, respectivamente.
+## Uso
 
-Defina os relacionamentos entre modelos usando as classes de relacionamento (RelationshipHasMany, RelationshipBelongsTo) no diretório app/database/relations.
+1. Defina suas classes de modelo (Model) e entidades (Entity) no diretório app/database/model e app/database/entity, respectivamente.
 
-Use a classe Query para construir consultas SQL de forma programática.
+2. Defina os relacionamentos entre modelos usando as classes de relacionamento (RelationshipHasMany, RelationshipBelongsTo) no diretório app/database/relations.
 
-Execute os métodos find(), get(), count() para recuperar resultados do banco de dados.
+3. Use a classe Query para construir consultas SQL de forma programática.
 
-Use o método makeRelationsWith() para carregar relacionamentos definidos entre modelos.
+4. Execute os métodos find(), get(), count() para recuperar resultados do banco de dados.
 
-Utilize a paginação através do método paginate() e createLinks() para criar links de paginação.
+5. Use o método makeRelationsWith() para carregar relacionamentos definidos entre modelos.
 
-Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para enviar pull requests ou abrir issues.
+6. Utilize a paginação através do método paginate() e createLinks() para criar links de paginação.
 
-Licença
-Este projeto está licenciado sob a MIT License.
+## Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para enviar pull requests ou abrir issues.
+
+## Licença
+1. Este projeto está licenciado sob a MIT License.
